@@ -1,0 +1,27 @@
+body {
+    background-color: #c7ced8;
+}
+table{
+    font-family: roboto;
+    background: black;
+}
+
+thead{
+    background-color: #27426d ;
+    color: white;
+}
+tbody tr:nth-child(2n+1) {
+    background: #4f8cef;
+    }
+
+tbody tr:nth-child(2n) {
+    background: #6facff;
+    }
+
+
+
+tfoot{
+    border-color: black ;
+    background-color: #27426d ;
+    color: white;
+}
